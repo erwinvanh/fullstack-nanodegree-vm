@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    background-color: #333FFF
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #ffffff;
+}
+
+h1,
+h2 {
+    font-family: 'georgia', serif;
+    margin: 0;
+}
+
+h1 {
+    border-bottom: 2px solid #eee;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p
+ {
+    color: #cccccc;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  margin-top: 10;
+}
+dt {
+  float: left;
+  width: 50%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0;
+  color: #cccccc;
+}
+dd {
+  float: left;
+  width: 50%;
+  /* adjust the width; make sure the total of both is 100% */
+  padding: 0;
+  margin: 0;
+  color: #cccccc;
+}
+a {
+    text-decoration: none;
+    color: #ffffcc;
+    font-size: .75em;
+}
+
+a.restaurantname_link {
+    color: #cccccc;
+    width: 100%;
+    display: inline-block;
+    float: left;
+    font-size: 1em;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid;
+  border-radius: 25px;
+  border-color: #999999;
+  padding: 5px;
+  width: 50%;
+  /*whatever width you want*/
+}
+.pane {
+    position: absolute;
+    left: 40%;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 5px;
+    border-color: #999999;
+    background-color: #333FFF
+}
+
+.header {
+    left: 50%;
+    text-align: center;
+}
+
+.name {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.restaurantname {
+    width: 100%;
+    display: inline-block;
+    float: left;
+}
+.description {}
+
+.course {}
+
+.price {
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+.editdeletepane {}
+
+.flash {
+    background: #FF0000;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #eee;
+    margin: 1em 0;
+    padding: 0;
+}
